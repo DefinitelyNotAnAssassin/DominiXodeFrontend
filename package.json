@@ -1,5 +1,6 @@
 {
-  "name": "react-shadcn-starter",
+  "name": "domini-xode",
+  "homepage": ".",
   "private": true,
   "version": "0.1",
   "type": "module",
@@ -19,18 +20,23 @@
     "@radix-ui/react-select": "^2.1.2",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-toast": "^1.2.2",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "embla-carousel-autoplay": "^8.3.0",
     "embla-carousel-react": "^8.3.0",
     "framer-motion": "^11.11.9",
+    "highlight.js": "^11.10.0",
     "lucide-react": "^0.453.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
     "react-router-dom": "^6.16.0",
+    "react-syntax-highlighter": "^15.6.1",
     "react-wrap-balancer": "^1.1.0",
     "tailwind-merge": "^1.14.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vercel": "^37.12.1"
   },
   "devDependencies": {
     "@types/node": "^20.8.4",

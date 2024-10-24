@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Applayout } from "./components/layouts/AppLayout";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import ArticlesPage from "./pages/ArticlesPage/ArticlesPage";
+import ViewArticle from "./pages/ArticlesPage/components/ViewArticle";
 import NoMatch from "./pages/NoMatch";
 import Dashboard from "./pages/Dashboard";
 import Empty from "./pages/Empty";
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
         element: <ArticlesPage />,
     },
     {
+        path: "/articles/:id",
+        element: <ViewArticle />,
+    },
+    {
         path: "/events",  
         element: <EventPage />,
     },
@@ -31,6 +36,4 @@ export const router = createBrowserRouter([
         path: "*",
         element: <NoMatch />,
     },
-], {
-    basename: global.basename
-})
+])
